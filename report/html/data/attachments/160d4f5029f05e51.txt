@@ -1,0 +1,11 @@
+[32mINFO    [0m C:\Users\THINK\PycharmProjects\AutoTestApi\logs\info-2023-03-27.log:log_decorator.py:42 
+======================================================
+用例标题: 输入手机号码小于11位
+请求路径: https://www.wanandroid.com/user/login
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=17fd7c25d5624b4ba8988314c612ab27', 'Content-Length': '231'}
+请求内容: {'username': '1880000000', 'password': '12345'}
+接口响应内容: {"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长: 362 ms
+Http状态码: 200
+=====================================================

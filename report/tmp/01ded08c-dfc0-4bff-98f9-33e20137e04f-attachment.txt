@@ -1,0 +1,23 @@
+[32mINFO    [0m C:\Users\THINK\PycharmProjects\AutoTestApi\logs\info-2023-03-27.log:log_decorator.py:42 
+======================================================
+用例标题: 新增收藏网址接口
+请求路径: https://www.wanandroid.com/lg/collect/addtool/json
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookie': 'JSESSIONID=12B63B91F4C6F8E29CE77E0B35AF9C52;loginUserName=18800000001;token_pass=5d9b90bcb70640183e09d1e755ead823;loginUserName_wanandroid_com=18800000001;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '93', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容: {'name': '自动化', 'link': 'https://gitee.com/yu_xiao_qi/pytest-auto-api2'}
+接口响应内容: {"data":{"desc":"","icon":"","id":62999,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":129462,"visible":1},"errorCode":0,"errorMsg":""}
+接口响应时长: 193 ms
+Http状态码: 200
+=====================================================
+[32mINFO    [0m C:\Users\THINK\PycharmProjects\AutoTestApi\logs\info-2023-03-27.log:log_decorator.py:42 
+======================================================
+用例标题: 正常删除收藏网站
+请求路径: https://www.wanandroid.com/lg/collect/deletetool/json
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=885fc38519bb490891cfde3bf0b41efb', 'cookie': 'JSESSIONID=12B63B91F4C6F8E29CE77E0B35AF9C52;loginUserName=18800000001;token_pass=5d9b90bcb70640183e09d1e755ead823;loginUserName_wanandroid_com=18800000001;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '211'}
+请求内容: {'id': 62999, 'id2': 2}
+接口响应内容: {"data":null,"errorCode":0,"errorMsg":""}
+接口响应时长: 201 ms
+Http状态码: 200
+=====================================================
+[33mWARNING [0m C:\Users\THINK\PycharmProjects\AutoTestApi\logs\warning-2023-03-27.log:teardown_control.py:318 程序中检查到您数据库开关为关闭状态，已为您跳过删除sql: UPDATE `api_test`.`ysq_test` SET `name` = '$json($.data.id)$' WHERE `name` = '2' LIMIT 1

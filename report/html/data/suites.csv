@@ -1,0 +1,61 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Mar 27 18:15:10 CST 2023","Mon Mar 27 18:15:10 CST 2023","294","test_case.Login","test_login","TestLogin","","","test_login[输入手机号码大于于11位]","
+        :param :
+        :return:
+        "
+"passed","Mon Mar 27 18:15:01 CST 2023","Mon Mar 27 18:15:01 CST 2023","207","test_case.UserInfo","test_get_user_info","TestGetUserInfo","","","test_get_user_info[正常获取个人身份信息]","
+        :param :
+        :return:
+        "
+"passed","Mon Mar 27 18:15:08 CST 2023","Mon Mar 27 18:15:09 CST 2023","292","test_case.Login","test_login","TestLogin","","","test_login[输入错误的密码]","
+        :param :
+        :return:
+        "
+"passed","Mon Mar 27 18:15:09 CST 2023","Mon Mar 27 18:15:10 CST 2023","377","test_case.Login","test_login","TestLogin","","","test_login[输入手机号码小于11位]","
+        :param :
+        :return:
+        "
+"passed","Mon Mar 27 18:15:02 CST 2023","Mon Mar 27 18:15:02 CST 2023","180","test_case.Collect","test_collect_addtool","TestCollectAddtool","","","test_collect_addtool[未登录状态下新增收藏网址]","
+        :param :
+        :return:
+        "
+"passed","Mon Mar 27 18:15:07 CST 2023","Mon Mar 27 18:15:08 CST 2023","740","test_case.Login","test_login","TestLogin","","","test_login[正常登录]","
+        :param :
+        :return:
+        "
+"passed","Mon Mar 27 18:15:09 CST 2023","Mon Mar 27 18:15:09 CST 2023","304","test_case.Login","test_login","TestLogin","","","test_login[输入非1开头的手机号码]","
+        :param :
+        :return:
+        "
+"skipped","Mon Mar 27 18:15:02 CST 2023","Mon Mar 27 18:15:02 CST 2023","0","test_case.Collect","test_collect_delete_tool","TestCollectDeleteTool","","","test_collect_delete_tool[正常删除不存在的ID数据（接口未完成此功能，跳过该条用例）]","
+        :param :
+        :return:
+        "
+"passed","Mon Mar 27 18:15:11 CST 2023","Mon Mar 27 18:15:11 CST 2023","926","test_case.Collect","test_collect_delete_tool","TestCollectDeleteTool","","","test_collect_delete_tool[正常删除收藏网站]","
+        :param :
+        :return:
+        "
+"passed","Mon Mar 27 18:15:10 CST 2023","Mon Mar 27 18:15:10 CST 2023","317","test_case.Login","test_login","TestLogin","","","test_login[手机号码首位包含空格]","
+        :param :
+        :return:
+        "
+"passed","Mon Mar 27 18:15:02 CST 2023","Mon Mar 27 18:15:07 CST 2023","5223","test_case.Collect","test_collect_tool_list","TestCollectToolList","","","test_collect_tool_list[查看收藏网址列表接口]","
+        :param :
+        :return:
+        "
+"passed","Mon Mar 27 18:15:10 CST 2023","Mon Mar 27 18:15:10 CST 2023","334","test_case.Login","test_login","TestLogin","","","test_login[手机号码为空]","
+        :param :
+        :return:
+        "
+"passed","Mon Mar 27 18:15:01 CST 2023","Mon Mar 27 18:15:02 CST 2023","622","test_case.Collect","test_collect_addtool","TestCollectAddtool","","","test_collect_addtool[新增收藏网址接口]","
+        :param :
+        :return:
+        "
+"skipped","Mon Mar 27 18:15:07 CST 2023","Mon Mar 27 18:15:07 CST 2023","0","test_case.Collect","test_collect_update_tool","TestCollectUpdateTool","","","test_collect_update_tool[编辑收藏网址]","
+        :param :
+        :return:
+        "
+"passed","Mon Mar 27 18:15:09 CST 2023","Mon Mar 27 18:15:09 CST 2023","293","test_case.Login","test_login","TestLogin","","","test_login[登录密码为空]","
+        :param :
+        :return:
+        "

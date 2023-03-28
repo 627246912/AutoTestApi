@@ -1,0 +1,11 @@
+[32mINFO    [0m C:\Users\THINK\PycharmProjects\AutoTestApi\logs\info-2023-03-27.log:log_decorator.py:42 
+======================================================
+用例标题: 正常获取个人身份信息
+请求路径: https://www.wanandroid.com/user/lg/userinfo/json
+请求方式: GET
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data;', 'cookie': 'JSESSIONID=12B63B91F4C6F8E29CE77E0B35AF9C52;loginUserName=18800000001;token_pass=5d9b90bcb70640183e09d1e755ead823;loginUserName_wanandroid_com=18800000001;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;'}
+请求内容: None
+接口响应内容: {"data":{"coinInfo":{"coinCount":10575,"level":106,"nickname":"","rank":"239","userId":129462,"username":"1**00000001"},"collectArticleInfo":{"count":139},"userInfo":{"admin":false,"chapterTops":[],"coinCount":10575,"collectIds":[-1,-1,-1,-1,21630,-1,-1,-1,-1,-1,22665,1165,19263,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,8665,24452,24889,-1,25098,1453,556,-1,-1,25615,25903,24990],"email":"1113132@qq.com","icon":"","id":129462,"nickname":"18800000001","password":"","publicName":"18800000001","token":"","type":0,"username":"18800000001"}},"errorCode":0,"errorMsg":""}
+接口响应时长: 185 ms
+Http状态码: 200
+=====================================================
